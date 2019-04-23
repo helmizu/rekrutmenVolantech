@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #009FFF; 
+}
+
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.height-full {
+  height:  calc(100%-5rem);
+}
+.card-header {
+  background-color: #fff !important;    
+}
+
+.navbar {
+  background: #009FFF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #009FFF, #17a5f3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #009FFF, #17a5f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle; 
+}
+
+.font-yellow {
+  color: rgba(253, 252, 71, 0.9);
+}
+
+.font-grey {
+  color : #c1c1c1;
+}
+
+.login {
+  padding: 144px 0 0 50px;
+}
+
+.text-head {
+  margin: 0;
+}
+
+.text-subhead {
+  width: 60%;
+}
+
+.form-login {
+  padding: 24px 0 24px 0;
+}
+
+.wrap-input {
+  width: 85%;
+  border: 2px #f7f7f7 solid;
+  padding: 0px 8px 8px 8px;
+  border-left: 3px solid #f7ff00;
+  background-color: #fff;
+}
+
+.wrap-input:not(:first-of-type), .wrap-input-full:not(:first-of-type) {
+  border-top: none;
+}
+
+.wrap-input-full {
+  width: 100%;
+  border: 2px #f7f7f7 solid;
+  padding: 0px 8px 8px 8px;
+  border-left: 3px solid #f7ff00;
+  background-color: #fff;
+}
+
+.label-input {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+  color: #dcdcdc;
+  font-weight: 600;
+}
+
+.form-input {
+  border-color: white;
+  border-radius: 0;
+  font-weight: 600;
+  padding: 0 6px;
+  border: none;
+  line-height: 1;
+  transition: none;
+  color: #969292;
+  background-color: #fff;
+}
+.form-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+.wrap-button {
+  text-align: right;
+  width: 85%;
+}
+
+.btn-login {
+  background-color: #009FFF; 
+  border-radius: 2px;
+  width: 100px;
+  font-weight: 500;
+  color: white;
+}
+
+.card-costum {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: #f7ff00;
+  border-radius: 10px;
+  margin: 225px auto;
+  box-shadow: 0px 0px 20px 1px #FFF;
+}
+
+.card-costum img {
+  display: inline-block;
+  margin: 25px auto;
+}
+
+.wrap-head { 
+  text-align: left;
+  border: 2px #f7f7f7 solid;
+  padding: 8px;
+  border-left: 4px solid #f7ff00;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.border-left-color-red {
+  border-left-color: #dd1818;
+}
+
+.border-left-color-yellow {
+  border-left-color: #f7ff00;
+}
+
+.border-left-color-green {
+  border-left-color: #1E9600;
+}
+
+.border-left-color-blue {
+  border-left-color: #009FFF;
+}
+
+.card .card-body .btn {
+  border-radius: 0;
+}
+
+.table-tagihan td, .table-tagihan th {
+  border: none;
+  padding: 4px;
+}
+
+.wrap-content {
+  background: #eee;
+  padding: 8px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.wrap-content .card {
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.label {
+  width: 15px !important; 
+  height: 25px !important;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.btn-delete {
+  padding: 0 !important;
+  cursor: pointer;
+  color: black !important;
+}
+
+.btn-delete:after {
+  content: '\2807';
+  font-size: 20px;
+}
+
+.edit {
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+  padding: 4px !important;
+}
